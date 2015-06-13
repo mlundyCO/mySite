@@ -1,9 +1,10 @@
 mySite
 ===
-This repository will be for working on my website.  I think I want the workflow to be something along the lines of:
+To use this repository:
 <ol>
-    <li>Working locally (Hmm, on my home machine or the server?), writing code and testing locally (Will I need an apache server to test the code?).  Eventually write a commit.</li>
-    <li>Push the commits to the github Repository</li>
-    <li>Pull the commits from the guthub Repo into the server's directory root</li>
-    <li>Restart the apache server</li>
+    <li>Work locally--- writing code and testing.  Eventually commit some code.</li>
+    <li>Push the commits to the github repository (or submit a pull request if you are not me)</li>
+    <li>Pull the commits from the github repository into the server's directory root</li>
+    <li>Restart the apache server
+        sudo /etc/init.d/apache2 restart</li>
 </ol>
